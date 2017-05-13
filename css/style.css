@@ -1,0 +1,174 @@
+body{
+	font-family: 'Roboto';
+}
+a{
+	text-decoration: none;
+	color: #9ba9bb;
+}
+label{
+	display: block;
+	font-weight: 500;
+}
+a:hover{
+	text-decoration: underline;
+	color: #1700fc;
+}
+
+input{
+	width: 300px;
+}
+
+textarea{
+	height: 40px;
+	width: 300px
+}
+
+.app-wrapper{
+	margin-left: 20px;
+
+}
+
+.form-wrapper{
+	width: 45%;
+	float: left;
+}
+
+.multiselect-box{
+	width: 170px;
+}
+
+
+.preview-wrapper{
+	width: 45%;
+	float: right;
+
+}
+.preview{
+	margin-right: 50px;
+}
+
+.preview-img{
+	width:170px;
+	height: auto;
+}
+
+.preview-content {
+	width: 100%;
+}
+.preview-content p{
+	color: #252525;
+}
+
+.select-info{
+	font-size: 12px;
+	color: #252525;
+	margin-bottom: 10px;
+}
+
+#preview-title{
+	margin-bottom: 10px;
+}
+
+#chars-left{
+	font-size: 10px;
+	color: #9ba9bb;
+	margin-left: 5px;
+	margin-bottom:10px;
+}
+
+#user-select{
+  margin-top: 15px;
+}
+
+
+
+/*Newscart Styling*/
+html, .root {
+  font-size: 16px;
+  line-height: 24px;
+}
+body, .article {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+
+  margin: auto;
+}
+h1, .h1 {
+  font-size: 54px;
+  line-height: 72px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  color: #1700fc;
+}
+h2, .h2 {
+  font-size: 36px;
+  line-height: 48px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  color: #1700fc;
+}
+h3, .h3 {
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 0px;
+  color: #1700fc;
+}
+h4, .h4 {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 0px;
+  color: #1700fc;
+}
+h5, .h5 {
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 24px;
+  margin-bottom: 0px;
+  color: #1700fc;
+}
+p, ul, ol, pre, table, blockquote {
+  margin-top: 0px;
+  margin-bottom: 24px;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Let's make sure all's aligned */
+hr, .hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+a, b, i, strong, em, small, code {
+  line-height: 0;
+}
+sub, sup {
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sup {
+  top: -0.5em;
+}
+sub {
+  bottom: -0.25em;
+}
+
+
+@media (max-width: 450px){
+  .form-wrapper{
+    width: 100%;
+    display: block;
+    float: none;
+  }
+
+  .preview-wrapper{
+    width: 100%;
+    display: block;
+    float: none;
+  }
+}
